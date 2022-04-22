@@ -49,7 +49,9 @@ const Signup = () => {
                 </div>
                 <div className={styles.right}>
                     <form className={styles.signup_form_container} onSubmit={handleSubmit}>
+                        <div className={styles.signupcont}>
                         <h1>Create Account</h1>
+                          
                         <input type="text"
                             placeholder='First Name'
                             name='firstName'
@@ -86,6 +88,7 @@ const Signup = () => {
                         <button type="submit" className={styles.green_btn}>
                             Sign Up
                         </button>
+                        </div>
                     </form>
                 </div>
 

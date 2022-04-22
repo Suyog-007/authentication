@@ -40,6 +40,7 @@ const Signup = () => {
             <div className={styles.login_form_container}>
                 <div className={styles.left}>
                     <form className={styles.signup_form_container} onSubmit={handleSubmit}>
+                        <div className={styles.logincont}>
                         <h1>Login to your account</h1>
                         <input type="email"
                             placeholder='Email'
@@ -61,6 +62,7 @@ const Signup = () => {
                         <button type="submit" className={styles.green_btn}>
                             Sign In
                         </button>
+                        </div>
                     </form>
                 </div>
                 <div className={styles.right}>
